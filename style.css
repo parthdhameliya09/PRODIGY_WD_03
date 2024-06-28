@@ -1,0 +1,108 @@
+/*#3E2A35 Purple
+#BBB09B   Khaki
+#0B4F6C   Indigo Dye
+#DFB2F4   Mauve
+#8B85C1   Tropical Indigo*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5d903;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 15px;
+  color: #f95738;
+  font-weight: bolder;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  font-size: 8vmin;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #0b4f6c;
+  color: #fff;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 263px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#reset-btn {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: 550;
+  background-color: #f95738;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 550;
+  background-color: #f95738;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+}
+
+#msg {
+  color: #0b4f6c;
+  font-size: 5vmin;
+  font-weight: 600;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
